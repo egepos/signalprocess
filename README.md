@@ -57,6 +57,3 @@ with:
 model = MiniResNet(NUM_CLASSES).to(DEVICE)
 ```
 
-## Result summary
-
-MiniResNet reached validation accuracy close to the CNN baseline, but the difference was not significant enough to replace the original CNN as the default model.
