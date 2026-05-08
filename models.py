@@ -3,7 +3,7 @@ import torch.nn as nn
 
 
 class ResidualBlock(nn.Module):
-    """Small residual block for 32x32 grayscale digit images."""
+    """Small residual block used in MiniResNet."""
 
     def __init__(self, in_channels, out_channels, stride=1, dropout=0.1):
         super().__init__()
